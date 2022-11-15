@@ -1,0 +1,213 @@
+.contacto{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 2px 2px 6px rgba(0, 0.1, 0.1, 0.1);
+}
+.container{ 
+   justify-content: center;
+   background: white;
+    width: 1600px;
+    margin: 40px auto;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    background: #2F303A
+}
+.titulo-principal{
+    
+    height: 120px;
+    left: 452px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+   
+}
+.boton{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;  
+}
+.text-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+.titulo-secundario{
+height: 42px;
+left: 701px;
+top: 969px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.imagen{
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+.seccion1{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.titulo-articulo{
+width: 270px;
+height: 15.05px;
+left: 215px;
+top: 774px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.contenido-articulo{
+width: 270px;
+height: 70.54px;
+left: 215px;
+top: 798.46px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.seccion2{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.lis3{
+    background: #F5F4FA;
+    height: 648px;
+}
+.seccion3{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.bloque3{
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+    
+}
+.lista3{
+    box-shadow: 2px 2px 6px rgba(0, 0.1, 0.1, 0.1);
+    justify-content: center;
+}
+.nombre-l3{
+height: 19px;
+left: 607px;
+top: 1925px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.perfil{
+
+    height: 19px;
+    left: 1207px;
+    top: 1954px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.pie-pagina{
+    width: 1600px;
+    height: 252px;
+    left: 500px;
+    top: 2097px;
+    background: #2F303A;
+}
+.logo{
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.ciudad{
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2197px;
+margin-bottom: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.contacto-pie{
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}

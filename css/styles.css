@@ -8,7 +8,6 @@
 
     --background-black: #2f303a;
     --container-padding: calc((100% - 1200px) / 2);
-    --border-seccion: 1px solid #ECECEC;
     --padding-seccion: 94px 0;
 
 }
@@ -23,6 +22,7 @@ body{
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
 .menu-header{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +47,7 @@ body{
 }
 
 .page:hover,
-.item:hover,
+.item-conta:hover,
 .current-page:focus,
 .page.current-page
 {
@@ -279,26 +279,24 @@ footer{
     cursor: default;
 }
 
-.item-foo{
+.item-conta{
  display: flex;
  margin-top: 5px;
  text-decoration: none;
- color: rgba(255, 255, 255, 0.6);
- cursor: default;
+ color: var(--text-color)
 }
 /* --------------------------------PORTAFOLIO---------------------------- */
 
 .list_buttons{
     display: flex;
     justify-content: center;
-    border-left: var(--border-seccion);
-    border-right: var(--border-seccion);
     margin: 0px;
+    padding: 0px;
+    padding: var(--padding-seccion);
     gap: 10px;
-    padding-top: 70px;
     list-style: none;
     color: var(--black-color); 
-    padding-bottom: 40px;
+    
 }
 .btns{
     display: flex;
@@ -316,14 +314,13 @@ footer{
 
 .list-porta{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0px;
-    gap: 30px;
+    gap: 25px;
     padding-left: 0px;
     padding-bottom: 40px;
     justify-content: center;
-    border-left: var(--border-seccion);
-    border-right: var(--border-seccion);
 }
 .elem-porta{
     box-sizing: border-box;
